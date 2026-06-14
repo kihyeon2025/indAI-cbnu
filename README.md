@@ -1,42 +1,30 @@
-# Industrial AI Project
+# 📌 지능화 캡스톤 프로젝트 (Intelligent Capstone Project)
 
-## 📌 개요 (Overview)
-본 프로젝트는 **산업인공지능학과** 과제 및 교육 과정을 목표로 합니다.  
-전력 수요 예측 등 다양한 산업 데이터를 기반으로 **머신러닝·딥러닝 모델**을 설계, 구현, 검증합니다.
-
+본 저장소는 **지능화 캡스톤 프로젝트 과목**을 수행하면서  
+실습 및 학습 과정에서 작성한 소스 코드를 정리하고 관리하기 위한 공간입니다.
 
 ---
 
-## 🛠 사용 기술 (Tech Stack)
-- **언어**: Python, C#
-- **프레임워크**: TensorFlow, PyTorch, Scikit-learn
-- **데이터 처리**: Pandas, NumPy
-- **시각화**: Matplotlib, Seaborn, Plotly
-- **기타**: OpenCV (영상 처리), Flask/FastAPI (웹 서비스)
+## 🎯 목적
+- 강의 실습 코드 관리
+- 프로젝트 진행 과정 기록
+- 인공지능 및 컴퓨터 비전 기술 학습
 
 ---
 
-## 📂 데이터셋 (Datasets)
-| 데이터명 | 설명 | 출처 |
-|----------|------|------|
-| UCI Household Electric Power Consumption | 전력 수요 예측 데이터 | UCI ML Repository |
-
-
----
-
-## 📈 주요 기능 (Key Features)
-1. **전력 수요 예측 모델**  
-   - 시계열 데이터를 LSTM, Transformer 기반으로 학습  
-   - 단기/중기 예측 성능 비교
+## 🛠️ 사용 기술
+- Python
+- OpenCV
+- NumPy
+- (추가 예정)
 
 ---
 
-## 🧪 모델 성능 (Model Performance)
-| 모델 | Task | Metric | Score |
-|------|------|--------|-------|
-| LSTM | 전력 수요 예측 | RMSE | 0.087 |
-| Transformer | 전력 수요 예측 | RMSE | 0.072 |
+## 📂 디렉토리 구조
 
----
-
-## 📜 프로젝트 구조 (Project Structure)
+```bash
+openCV2/
+├── ex1/
+├── ex2/
+├── ex3/
+└── ...
