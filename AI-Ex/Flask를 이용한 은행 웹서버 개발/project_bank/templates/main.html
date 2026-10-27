@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>대시보드</title></head>
+<body>
+  <h2>{{ userid }}님의 계좌</h2>
+  <p>현재 잔액: {{ balance }}원</p>
+  <form method="post">
+    금액: <input type="number" name="amount" required><br>
+    <button type="submit" name="action" value="deposit">입금</button>
+    <button type="submit" name="action" value="withdraw">출금</button>
+  </form>
+  <p>{{ message }}</p>
+  <a href="{{ url_for('logout') }}">로그아웃</a>
+</body>
+</html>
